@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability privately
+    url: https://github.com/KlowzyZ/OZFA-Quick-Formatter/security/advisories/new
+    about: Please do not disclose security-sensitive details in a public issue.

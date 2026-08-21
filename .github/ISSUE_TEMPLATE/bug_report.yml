@@ -1,0 +1,59 @@
+name: Bug report
+description: Report a reproducible problem with OZFA Quick Formatter.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve OZFA Quick Formatter. Do not test with an important disk or include sensitive data in this report.
+  - type: dropdown
+    id: version
+    attributes:
+      label: Application version
+      options:
+        - 3.0.1
+        - 3.0.0
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2 x64
+    validations:
+      required: true
+  - type: input
+    id: disk
+    attributes:
+      label: Disk details
+      description: Provide the model, capacity, connection type, and whether Windows marked it as removable.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe the safe, non-destructive steps that led to the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include the exact error text and relevant log excerpt, with sensitive information removed.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I did not test this report against an important disk or include credentials or private data.
+          required: true

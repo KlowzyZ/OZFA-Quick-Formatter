@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest a focused improvement to OZFA Quick Formatter.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow
+      description: What problem would this improvement solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the smallest useful change and its expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Disk-safety considerations
+      description: Explain any effect on disk detection, selection, formatting, or verification.
+    validations:
+      required: true
