@@ -2,6 +2,8 @@
 
 All preserved public releases of OZFA Quick Formatter are listed here. Downloadable executables and their SHA-256 checksum files are available from [GitHub Releases](https://github.com/KlowzyZ/OZFA-Quick-Formatter/releases).
 
+Current official downloads from this repository are provided under the [proprietary license](LICENSE). Copies previously received under GPL-3.0 retain the rights granted to those copies; see [historical licensing](LICENSES/README.md).
+
 ## [3.0.1] - 2026-08-20
 
 - Added a new high-resolution application icon designed for OZFA Quick Formatter.

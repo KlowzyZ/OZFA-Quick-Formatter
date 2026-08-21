@@ -16,7 +16,7 @@
   <a href="https://github.com/KlowzyZ/OZFA-Quick-Formatter/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/KlowzyZ/OZFA-Quick-Formatter?style=for-the-badge&amp;logo=github&amp;color=2563EB"></a>
   <img alt="Windows 10 and 11" src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=for-the-badge&amp;logo=windows11&amp;logoColor=white">
   <img alt="Portable" src="https://img.shields.io/badge/Portable-No%20Install-16A34A?style=for-the-badge">
-  <a href="LICENSE"><img alt="GPL-3.0 license" src="https://img.shields.io/github/license/KlowzyZ/OZFA-Quick-Formatter?style=for-the-badge&amp;color=7C3AED"></a>
+  <a href="LICENSE"><img alt="Proprietary license" src="https://img.shields.io/badge/License-Proprietary-7C3AED?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -72,7 +72,7 @@ Detect disks → Exclude protected disks → Select safe targets
 
 ## License
 
-OZFA Quick Formatter versions previously distributed under the [GNU General Public License v3.0](LICENSE) remain covered by that license. Moving development to a private repository does not revoke rights already granted to recipients of those versions. See the [changelog](CHANGELOG.md) for the preserved public releases.
+Current official downloads are provided under the [OZFA Quick Formatter Proprietary License](LICENSE); the source code is not publicly licensed. Copies previously received under GPL-3.0 retain those rights, and the historical license text is preserved under [LICENSES](LICENSES/README.md). See the [third-party notices](THIRD-PARTY-NOTICES.md) and [changelog](CHANGELOG.md) for details.
 
 <p align="center">
   <sub>Copyright © 2026 Klowzy · Developed for OZFA</sub>
